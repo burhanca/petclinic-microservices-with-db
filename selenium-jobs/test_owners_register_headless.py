@@ -23,7 +23,7 @@ sleep(2)
 all_link = driver.find_element_by_link_text("REGISTER")
 all_link.click()
 sleep(2)
-# Register new Owner to Petclinic App
+# Register new Owner to Petclinic App a
 fn_field = driver.find_element_by_name('firstName')
 fn = 'Callahan' + str(random.randint(0, 100))
 fn_field.send_keys(fn)
